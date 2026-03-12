@@ -1,0 +1,9 @@
+{
+  "buildCommand": "pnpm build",
+  "outputDirectory": "dist",
+  "env": {
+    "EXPO_USE_METRO_WORKSPACE_ROOT": "1"
+  },
+  "framework": "expo",
+  "nodeVersion": "18.x"
+}

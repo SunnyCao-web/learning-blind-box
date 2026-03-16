@@ -1,9 +1,9 @@
 {
-  "buildCommand": "pnpm build",
-  "outputDirectory": "dist",
+  "buildCommand": "pnpm vercel-build",
+  "outputDirectory": "public",
+  "nodeVersion": "18.x",
   "env": {
-    "EXPO_USE_METRO_WORKSPACE_ROOT": "1"
-  },
-  "framework": "expo",
-  "nodeVersion": "18.x"
+    "EXPO_USE_METRO_WORKSPACE_ROOT": "1",
+    "NODE_ENV": "production"
+  }
 }
